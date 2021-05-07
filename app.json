@@ -3,19 +3,19 @@
     "description": "Manage your groups!",
     "env": {
         "BOT_TOKEN": {
-            "description": "Get it from @BotFather",
+            "description": "Get it from: http://t.me/BotFather",
             "required": true
         },
         "BOT_LANGUAGE": {
-            "description": "Bot language, ex: en",
+            "description": "Bot language, example: en, available Russian & English",
             "required": true
         },
         "GROUP_MAIN": {
-            "description": "Main groups",
+            "description": "Main group ID example: -109272729",
             "required": true
         },
         "GROUP_REPORTS": {
-            "description": "Logs group",
+            "description": "Logs group ID example: -1005282826",
             "required": true
         }
     }

@@ -51,4 +51,7 @@ so don't worry if you stop seeing this file, it's still here!
 2. Open `.env` file and set values for token, language and group IDs;  
 3. Build and run your container: `docker-compose up -d`.
 
+##### Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Imszy17/telegram-report-bot)
+
 Alternatively, check [docker-compose.yml](docker-compose.yml) file from this repo.

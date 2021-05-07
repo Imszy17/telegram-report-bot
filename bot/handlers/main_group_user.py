@@ -79,6 +79,7 @@ async def calling_all_units(message: types.Message, config: Config, lang: str):
 
 
 def register_main_group_user(dp: Dispatcher, main_group_id: int):
-    dp.register_message_handler(error_no_reply, chat_id=main_group_id, is_reply=False, commands=["report"])
-    dp.register_message_handler(cmd_report, chat_id=main_group_id, is_reply=True, commands="report")
-    dp.register_message_handler(calling_all_units, Text(startswith="@admin", ignore_case=True), chat_id=main_group_id)
+    dp.register_message_handler(error_no_reply, chat_id=main_group_id, is_reply=False, commands=["lapor", "report"])
+    dp.register_message_handler(cmd_report, chat_id=main_group_id, is_reply=True, commands=["lapor", "report"])
+    dp.register_message_handler(calling_all_units, Text(startswith="@lapor", ignore_case=True), chat_id=main_group_id)
+

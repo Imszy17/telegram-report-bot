@@ -1,0 +1,22 @@
+{
+    "name": "AlexaSongBot",
+    "description": "Grabs song from yt and sends it to telegram",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        },
+        "BOT_LANGUAGE": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        },
+        "GROUP_MAIN": {
+            "description": "Get this value by making a bot from @BotFather.",
+            "required": true
+        },
+        "GROUP_REPORTS": {
+            "description": "Your telegram user id.",
+            "required": true
+        }
+    }
+}
